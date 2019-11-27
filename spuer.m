@@ -24,7 +24,7 @@ s=single(p)'*V;
 z=[];
 for i=1:size(v,2)
     z=[z,norm(cv(i,:)-s,2)];
-    if(rem(i,5)==0),imshow(reshape(v(:,i),112,92)),end;
+    if(rem(i,10)==0),imshow(reshape(v(:,i),112,92)),end;
     drawnow;
 end
 [a,i]=min(z);

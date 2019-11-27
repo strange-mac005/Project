@@ -12,7 +12,7 @@ if(isempty(loaded))
         end
         cd ..
     end
-    w=uint8(v); % Convert to unsigned 8 bit numbers to save memory. 
+    w=uint8(v); % Convert to unsigned 8 bit numbers to save memory. grayscale image
 end
 loaded=1;  % Set 'loaded' to aviod loading the database again. 
 out=w;
